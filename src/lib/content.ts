@@ -17,7 +17,7 @@ export const company = {
 
 /** Paste real profile URLs when ready — empty href shows the icon as pending. */
 export const socialLinks = [
-  { id: "linkedin", label: "LinkedIn", href: "" },
+  { id: "linkedin", label: "LinkedIn", href: "https://www.linkedin.com/company/sysswift/" },
   { id: "whatsapp", label: "WhatsApp", href: "https://wa.me/233508366574" },
 ] as const;
 
