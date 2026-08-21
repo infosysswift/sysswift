@@ -74,6 +74,13 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  nitro: {
+    cloudflare: {
+      name: "sysswift",
+      nodeCompat: true,
+      deployConfig: true,
+    },
+  },
   vite: {
     plugins: [ensureTanstackStartSsrMiddleware()],
   },
